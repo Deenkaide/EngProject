@@ -15,24 +15,18 @@ a{
     color: #2E2D2D;
 }
 .container{
+    position: relative;
 width: 360px;
 height: 1675px;
 margin: 0 auto;
-margin-top: 100px;
-margin-bottom: 100px;
 
 background: #D0CEA2;
-}
-.box{
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .line{
     position: absolute;
     width: 360px;
     margin: 0 auto;
-    margin-top: 100px;
 height: 20px;
 left: 0px;
 right: 0px;
@@ -45,9 +39,7 @@ background: #C6A247;
     width: 360px;
     margin: 0 auto;
 height: 20px;
-left: 0px;
-right: 0px;
-top: 1775px;
+top: 1675px;
 
 background: #C6A247;
 }
@@ -57,29 +49,167 @@ background: #C6A247;
     height: 130px;
     margin: 0 auto;
     margin-top: 42px;
+    background-color: #C6A247;
+    border-radius: 15px;
 }
+.p_holidays{
+    position: absolute;
+    top: 44px;
+    margin-left: 29px;
+}
+
+
+
 .kupalle{
+    position: absolute;
     width: 350px;
-height: 452px;
-    margin: 0 auto;
+    height: 452px;
+    margin-left:5px;
     margin-top: 55px;
 }
+.kupalle-smallbox{
+    width: 150px;
+    height: 70px;
+    background-color: #C6A247;
+    border-radius: 15px;
+    margin-left: 171px;
+    margin-top: 0px;
+}
+.p_kupalle{
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 14px;
+}
+.img-kupalle{
+    position: absolute;
+width: 223px;
+height: 149px;
+left: calc(50% - 223px/2 - 48.5px);
+top: 53px;
+
+background: url(IMG/Holidays/Kupalle.jpg);
+border: 2px solid #C6A247;
+box-sizing: border-box;
+border-radius: 15px;
+}
+.kupalle-bigbox{
+    position: absolute;
+width: 350px;
+height: 250px;
+left: calc(50% - 350px/2);
+top: 202px;
+
+background: #C6A247;
+border-radius: 15px;
+}
+.bt_kupalle{
+    position: absolute;
+width: 320px;
+height: 235px;
+left: calc(50% - 320px/2);
+}
+
+
+
 .maslenica{
+    position: absolute;
     width: 350px;
     height: 341px;
-    margin: 0 auto;
-    margin-top: 28px;
+    margin-left:5px;
+    top: 727px;
 }
+.smb_maslenica{
+    position: absolute;
+width: 180px;
+height: 70px;
+left: calc(50% - 180px/2 - 37px);
+top: 0px;
+
+background: #C6A247;
+border-radius: 15px;
+}
+.bt_maslenica{
+    position: absolute;
+width: 168px;
+height: 42px;
+left: 6px;
+top: 14px;
+}
+.img_maslenica{
+    position: absolute;
+    width: 223px;
+    height: 146px;
+    left: 120px;
+    top: 50px;
+
+    background: url(IMG/Holidays/Maslenica.jpg);
+    border: 2px solid #C6A247;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.bb_maslenica{
+    position: absolute;
+    width: 350px;
+    height: 145px;
+    margin-top: 192px;
+    border-radius: 15px;
+    background: #C6A247;
+}
+.smt_maslenica{
+    position: absolute;
+    width: 320px;
+    height: 125px;
+    margin-left: 15px;
+    bottom: 30px;
+}
+
+
+
 .kalyady{
     width: 352px;
     height: 510px;
     margin: 0 auto;
-    margin-top: 28px;
+    margin-top: 956px;
 }
+.bt_kalyady{
+    position: absolute;
+width: 128px;
+height: 42px;
+left: 175px;
+top: 1105px;
+}
+.smt_kalyady{
+    position: absolute;
+width: 323px;
+height: 294px;
+margin-left: 18px;
+top: 1310px;
+}
+
+
+
 .home{
     position: absolute;
 width: 60px;
 height: 60px;
 margin-left: 17px;
 margin-top: 27px;
+}
+.text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #393939;
+}
+.text-small{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 21px;
+
+    color: #393939;
+    font-size: 18px;
 }
