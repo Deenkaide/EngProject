@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    background-color: rgb(22, 22, 22);
+}
+
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #2E2D2D;
+}
+.container{
+width: 360px;
+height: 800px;
+margin: 0 auto;
+
+background: #BABABA;
+}
+
+
+.welcome{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 101px;
+}
+
+
+.know{
+    width: 300px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.manners{
+    width: 200px;
+    height: 88px;
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: #979797;
+    border-radius: 25px;
+    text-align: center;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 40px;
+text-align: center;
+
+color: #2E2D2D;
+}
+.holydays{
+    width: 200px;
+    height: 88px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #979797;
+    border-radius: 25px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 80px;
+    text-align: center;
+
+    color: #2E2D2D;
+}
+.line{
+    position: absolute;
+    width: 360px;
+    margin: 0 auto;
+    margin-top: 100px;
+height: 20px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+background: #979797;
+}
+.linedown{
+    position: absolute;
+    width: 360px;
+    margin: 0 auto;
+height: 20px;
+left: 0px;
+right: 0px;
+top: 900px;
+
+background: #979797;
+}
+
+.holydays:hover{
+    background-color: #4b4a4a73;
+}
+.manners:hover{
+    background-color: #4b4a4a73;
+}
