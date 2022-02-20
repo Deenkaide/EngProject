@@ -23,6 +23,10 @@ margin-bottom: 100px;
 
 background: #D0CEA2;
 }
+.box{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 .line{
     position: absolute;
